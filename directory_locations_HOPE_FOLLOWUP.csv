@@ -1,6 +1,0 @@
-variablename,values
-master_directory,/media/atul/WDJan2022/WASHU_WORKS/PROJECTS/DOCKERIZE/nwucalculationforgithub/DATATOTEST
-csfmaskext,_unet
-infarctmaskext,_infarct_auto_removesmall
-output_dir_extension1,1
-output_dir_extension2,20
