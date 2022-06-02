@@ -118,14 +118,15 @@ upper_limit=99999999999
 lower_limit=0
 ### ITERATE TRHOUGH ECAH FILE 
 file_count=0
+betmaskext="_bet"
 csfmaskext="_unet"  ## "_final_seg" #
 infarctmaskext=_infarct_auto_removesmall ##  "_seg" #"_normalized.nii.gz_pos" #"_seg" #"_infarct_auto_removesmall" #"_infarct_auto"
 for gray_file in ${YashengFolder}/*.nii* ;
 do 
     echo ${x}
     gray_file_basename=$(basename ${gray_file})
-    gray_file_basename_noext=${gray_file_basename%_levelset.nii*}
-    betmaskfilename=${gray_file_basename_noext}_levelset_bet.nii.gz
+    gray_file_basename_noext=${gray_file_basename%.nii*}
+    betmaskfilename=${gray_file_basename_noext}${betmaskext}.nii.gz
     csfmaskfilename=${gray_file_basename_noext}${csfmaskext}.nii.gz
     infarctmaskfilename=${gray_file_basename_noext}${infarctmaskext}.nii.gz
 
