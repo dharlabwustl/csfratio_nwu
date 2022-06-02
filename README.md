@@ -17,7 +17,7 @@ The directory structure must be as follows:
 ```
  DATADIRECTORY
     ├── betmask (contains BET mask)
-    ├── csfmask (contains CSF maks)
+    ├── csfmask (contains CSF mask)
     ├── grayctimage (contains NCCT)
     └── infarctmask (contains infarct mask)
 ```
