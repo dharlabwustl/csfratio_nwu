@@ -2,7 +2,7 @@
 
 ## Introduction
 For a non-contrast CT scan (NCCT) of a brain with infarct, this project calculates CSF (cerebrospinal fluid) ratio of the infarct side vs non-infarct side, and its net water updake (NWU) based on the Hounsfield Unit (HU) values of the CT voxels.
-$$ \frac{aa}{bb} $$
+
 
 
 $$ CSF\ ratio = \frac{CSF\ volume\ on\ infarct\ side}{CSF\ volume\ on\ non-infarct\ side}$$
